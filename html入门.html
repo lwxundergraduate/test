@@ -15,5 +15,9 @@
     5.将本地仓库与远程仓库连接 git remote add origin url
     (origin是远程仓库的名字，url即远程仓库的地址)
     6.将本地仓库修改后的文件推送到远程仓库的分支 git push orign master
+    补：在将本地仓库修改后的文件推送到远程仓库的分支后，又对此文件做了修改，若仍想将更改同步到远程仓库
+    只需再次使用 git add .将文件先添加到暂存区，然后用git commit -m
+    "message"语句将暂存区中的文件添加到 版本库，然后使用 git push origin
+    master直接推送即可
   </body>
 </html>
