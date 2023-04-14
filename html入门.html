@@ -7,6 +7,13 @@
     <title>测试</title>
   </head>
   <body>
-    哈哈客户我是一个大好人
+    将本地修改后的文件，传到本地仓库，最后传到远程仓库的详细步骤：
+    1.初始化一个本地仓库 git init (可以指定路径) 2.将文件添加到暂存区 git
+    add.(详情可以看具体用法)然后使用git status查看文件的状态，即文件是否被追踪
+    3.添加文件到版本库，也就是本地仓库 git commit -m "message"
+    message表示一些描述信息 4.追踪并提交到版本库 git commit -am "message"
+    5.将本地仓库与远程仓库连接 git remote add origin url
+    (origin是远程仓库的名字，url即远程仓库的地址)
+    6.将本地仓库修改后的文件推送到远程仓库的分支 git push orign master
   </body>
 </html>
